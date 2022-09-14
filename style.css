@@ -1,0 +1,56 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	text-align: center;
+	padding: 50px;
+	background-color: #1572a1;
+	color: #eef1ff;
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+.ques-list {
+	background-color: #c4d7e0;
+	padding: 30px;
+}
+.answer_list
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.answers
+{
+    width:50%;
+    padding: 15px;
+}
+.title_para
+{
+    color:#eef1ff;
+    margin-top: 20px;
+    display: none;
+}
+p{
+
+    color: #1572a1;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+input[type="submit"]
+{
+    padding: 15px;
+    margin-left: 50%;
+    background-color: #1572a1;
+    border: none;
+    color: #eef1ff;
+    font-size: 1em;
+}
