@@ -26,7 +26,7 @@ form.addEventListener('submit', (e) => {
     para.style.display="block";
 	let output = 0;
 	let timer = setInterval(() => {
-		change.textContent = `You score ${output}.`;
+		change.textContent = `${output}%.`;
 		if (output === score) {
 			clearInterval(timer);
 		} else {
